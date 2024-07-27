@@ -4,7 +4,6 @@ if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 global.audio = "";
 global.video = "";
-global.image = "false"
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "TalkDrove@gmail.com";
